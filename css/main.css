@@ -102,7 +102,7 @@ section {
     height: 30px;
     width: 330px;
     padding: 6px 12px;
-    border: 1px #a0a0a0;
+    border: 1px solid #a0a0a0;
 }
 
 .search-button {
@@ -115,8 +115,9 @@ section {
 }
 
 .nav-list {
-    padding: 0;
+    padding-left: 0;
     width: 575px;
+    border-bottom-width: 1px;
     margin-top: 10px;
 }
 
@@ -134,9 +135,20 @@ section {
 .account {
     text-align: right;
     padding: 15px;
-    font: #364147 18px;
+    font-size:  18px;
+    color: #364147;
 }
 
 .account a {
     font-size: 14px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
 }
